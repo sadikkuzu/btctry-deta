@@ -22,3 +22,5 @@ uvicorn main:app --reload
 [Deta](https://deta.sh)
 
 [![Deploy](https://button.deta.dev/1/svg)](https://go.deta.dev/deploy?repo=https://github.com/sadikkuzu/btctry-deta)
+
+![image](https://user-images.githubusercontent.com/23168063/157983832-4eb5b136-1de7-44cb-8442-a9176e2405b2.png)
