@@ -1,0 +1,4 @@
+-r requirements.txt
+deta
+uvicorn
+pre-commit
