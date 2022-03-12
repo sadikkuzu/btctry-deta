@@ -4,3 +4,4 @@ uvicorn
 pytest
 pytest-cov
 pre-commit
+tox
