@@ -2,6 +2,7 @@
 
 
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/sadikkuzu/btctry-deta/main.svg)](https://results.pre-commit.ci/latest/github/sadikkuzu/btctry-deta/main)
+[![Test BTCTRY](https://github.com/sadikkuzu/btctry-deta/actions/workflows/test-btctry.yml/badge.svg)](https://github.com/sadikkuzu/btctry-deta/actions/workflows/test-btctry.yml)
 
 
 ### Deployment
