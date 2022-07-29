@@ -33,7 +33,7 @@ deta cron set "0 10 * * ? *"
 pip install -Ur requirements-dev.txt
 pre-commit install
 pre-commit run --all-files
-pytest -v --cov=btctry --cov-report term-missing tests/
+pytest
 tox
 ```
 
