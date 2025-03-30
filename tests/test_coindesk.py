@@ -16,7 +16,7 @@ def mock_coingecko_response(mocker):
     mock_response.json.return_value = MOCK_COINGECKO_DATA
 
     # Mock the requests.get method
-    mock_get = mocker.patch('requests.get', return_value=mock_response)
+    mock_get = mocker.patch('btctry.utils.coingecko.requests.get', return_value=mock_response)
     return mock_get
 
 
@@ -29,7 +29,7 @@ def test_get_btctry_mocked(mock_coingecko_response):
     # Verify the rate data
     currency_data = btc["bpi"][AppConfig.CURRENCY]
     assert currency_data["code"] == AppConfig.CURRENCY
-    assert float(currency_data["rate"]) == MOCK_COINGECKO_DATA["bitcoin"][AppConfig.CURRENCY.lower()]
+    assert float(currency_data["rate"]) == float(MOCK_COINGECKO_DATA["bitcoin"][AppConfig.CURRENCY.lower()])
     assert currency_data["rate_float"] == MOCK_COINGECKO_DATA["bitcoin"][AppConfig.CURRENCY.lower()]
 
     # Verify request was made with the correct URL
