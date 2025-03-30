@@ -1,4 +1,4 @@
-from .coindesk import get_btctry, prepare_for_put, save_btctry
+from .coingecko import get_btctry, prepare_for_put, save_btctry
 
 
 __all__ = [
