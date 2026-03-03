@@ -1,6 +1,6 @@
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v6.0.0
     hooks:
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
@@ -10,12 +10,12 @@ repos:
     -   id: check-docstring-first
     -   id: check-merge-conflict
 -   repo: https://github.com/asottile/pyupgrade
-    rev: v3.20.0
+    rev: v3.21.2
     hooks:
     -   id: pyupgrade
         args: [--py38-plus]
 -   repo: https://github.com/asottile/add-trailing-comma
-    rev: v3.2.0
+    rev: v4.0.0
     hooks:
     -   id: add-trailing-comma
 -   repo: https://github.com/pycqa/flake8
